@@ -8,11 +8,6 @@ const routes: Routes = [
     loadChildren: './todo-overview/todo-overview.module#TodoOverviewModule',
   },
   {
-    path: 'pre-loaded-module',
-    loadChildren: './pre-loaded-module/pre-loaded-module.module#PreLoadedModuleModule',
-    data: { preload: true }
-  },
-  {
     path: '',
     redirectTo: '',
     pathMatch: 'full'
